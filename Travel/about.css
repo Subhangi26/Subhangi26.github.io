@@ -1,0 +1,38 @@
+*{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+	box-sizing:border-box;
+	font-family: 'Kufam', sans-serif;
+}
+.headus{
+	margin:15px 0px;
+	width:100%;
+	height:80vh;
+	align-items:center;
+	justify-content:space-around;	
+	color:#000;
+}
+.headus1 {
+	background-color: rgb(70,48,70);
+	margin: 0 60px;
+	color:#fff;
+}
+.headus1 h3{	
+	padding:12px;
+	text-align:left;
+}
+.bodyAbout{
+	margin: 20px 60px;
+}
+.heading1{
+	margin-top:20px;
+	color:rgb(170,48,70);
+}
+.heading2{
+	color:rgb(200,48,70);
+}
+.textpar{
+	margin: 10px 0px;
+	letter-spacing:1px;
+}

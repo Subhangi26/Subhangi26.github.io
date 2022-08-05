@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+*{
+	font-family: 'Fira Sans', sans-serif;
+}
+.container2{
+	top:55%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	position:absolute;
+	min-width:450px;
+	background-color: lemonchiffon;
+	padding: 30px;
+	box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+.text2{
+	background-color: lemonchiffon;
+	font-size: 30px;
+	font-weight: bold;
+	text-align:center;
+	font-family: 'Source Code Pro', monospace;
+}
+.container2 form{
+	background-color: lemonchiffon;
+	margin-top: -20px;
+}
+.data2{
+	background-color: lemonchiffon;
+	height: 35px;
+	width:100%;
+	margin: 40px 0;
+}
+.data2 label{
+	background-color: lemonchiffon;
+	font-size: 17px;
+}
+.data2 input{
+	background-color: #fff;
+	height:100%;
+	width:100%;
+	padding-left:10px;
+	font-size: 14px;
+	border: 1px solid lightgrey;
+}
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0 ;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.btn{
+    background-color: darkslateblue;
+    padding: 15px 100px;
+    color: azure;
+    margin: 30px 140px;
+    border-radius: 13px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: azure;
+    color: darkslateblue;
+}
